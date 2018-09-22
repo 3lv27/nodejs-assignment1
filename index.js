@@ -34,7 +34,6 @@ const httpServer = http.createServer((req, res) => {
     header: headers
   }
 
-
   // Route the request to the handler specififed in the router
   chosenHandler(data, (statusCode, payload) => {
 
